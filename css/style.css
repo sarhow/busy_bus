@@ -1,0 +1,87 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background-color: #252af7;
+  border-bottom: 0.5px solid white;
+}
+
+.bus-list {
+  background-color: #333333;
+  position: absolute;
+  width: 420px;
+}
+
+.direction {
+  width: 100%;
+}
+
+.direction-name {
+  clear: both;
+  width: 100%;
+  padding: 30px;
+}
+
+.line-number {
+  float: left;
+  width: 10%;
+  padding-left: 20px;
+}
+
+.destination {
+  float: left;
+  width: 60%;
+  padding: 0px 20px 0px 20px;
+}
+
+.frequency {
+  float: left;
+  width: 30%;
+  padding: 0px 10px 0px 10px;
+}
+
+.line-number,.destination,.frequency {
+  display: inline-block;
+}
+
+h6 {
+  font-size: 150%;
+  padding: 30px 70px 30px 80px;
+}
+
+}
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 90%;
+  padding: 10px 50px 10px 10px;
+}
+
+h3 {
+  font-size: 90%;
+  padding: 10px 50px 10px 10px;
+}
+
+h4 {
+  font-size: 70%;
+  padding: 10px 20px 20px 50px;
+  line-height: 14px;
+}
