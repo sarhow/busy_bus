@@ -16,7 +16,6 @@ body {
 
 nav {
   margin: 0 auto;
-  width: 100%;
   background-color: #252af7;
   height: 100px;
 }
@@ -37,12 +36,11 @@ padding-left: 30px;
 
 .bus-list {
   background-color: white;
-  position: absolute;
   width: 420px;
 }
 
 .direction-name {
-  padding: 20px 30px 20px 30px;
+  padding: 30px 30px 30px 30px;
   background-color: #F1F1F1;
   line-height: 1px;
 }
