@@ -5,147 +5,210 @@
     <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
-  </head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
   <body>
     <section class="container">
+      <div class ="status-bar">
+      <img src="images/status-bar.png" alt="status bar" style="width:420px;height:auto; background-color:#D2D3FE">
+    </div>
       <nav>
         <div class="arrow-left">
-          <i class="fa fa-chevron-left fa-inverse fa-1x" aria-hidden="true"></i>
+          <i class="fas fa-arrow-left"></i>
         </div>
-        <div class="current-stop">
-          <h6>Washington and State</h6>
+        <div class="cross">
+          <i class="fas fa-times"></i>
         </div>
+        <h1>Washington and State</h1>
+
       </nav>
+
       <section class="bus-list">
 
-        <div class="direction">
-          <div class="direction-name">
-            <h1>EASTBOUND</h1>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
-            <h2>60</h2>
-            </div>
-            <div class="destination">
-            <h3>Randolph/Harbor Dr</h3>
-            </div>
-            <div class="frequency">
-            <h4>Every<br/>20 min</h4>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
-              <h2>124</h2>
-            </div>
-            <div class="destination">
-              <h3>Navy Pier</h3>
-            </div>
-            <div class="frequency">
-              <h4>Every<br/>10 min</h4>
-            </div>
-          </div>
-          </div>
-        </div>
 
-        <div class="direction">
-          <div class="direction-name">
-            <h1>NORTHBOUND</h1>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
-            <h2>151</h2>
-            </div>
-            <div class="destination">
-            <h3>Devon/Clark</h3>
-            </div>
-            <div class="frequency">
-            <h4>Every<br/>16 min</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="direction">
-          <div class="direction-name">
-            <h1>SOUTHBOUND</h1>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
-            <h2>J14</h2>
-            </div>
-            <div class="destination">
-            <h3>103rd/Stony Island</h3>
-            </div>
-            <div class="frequency">
-            <h4>Every<br/>15 min</h4>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
+        <ul class="border-bottom">
+          <li class="number">
             <h2>124</h2>
-            </div>
-            <div class="destination">
-            <h3>Navy Pier</h3>
-            </div>
-            <div class="frequency">
-            <h4>Every<br/>10 min</h4>
-            </div>
-        </div>
-      </div>
+          </li>
+          <li class="direction">
+            <h3>SOUTHBOUND</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Navy Pier</span>
+          </li>
+          <li class="time">
+            7 min
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 9:48 AM</span>
+          </span>
+          </li>
+        </ul>
 
-        <div class="direction">
-          <div class="direction-name">
-            <h1>REROUTE</h1>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
-            <h2>6x</h2>
-            </div>
-            <div class="destination">
-            <h3>Jackson Park Express</h3>
-            </div>
-            <div class="frequency">
-            <h4>N/A</h4>
-            </div>
-          </div>
-        </div>
 
-        <div class="direction">
-          <div class="direction-name">
-            <h1>OUT OF SERVICE</h1>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
+        <ul class="border-bottom">
+          <li class="number">
+            <h2>124</h2>
+          </li>
+          <li class="direction">
+            <h3>EASTBOUND</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Navy Pier</span>
+          </li>
+          <li class="time">
+            8 min
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 9:49 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
+            <h2>60</h2>
+          </li>
+          <li class="direction">
+            <h3>EASTBOUND</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Randolph/Harbor Dr</span>
+          </li>
+          <li class="time">
+            12 min
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 9:53 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
+            <h2>J14</h2>
+          </li>
+          <li class="direction">
+            <h3>SOUTHBOUND</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> 103rd/Stony Island</span>
+          </li>
+          <li class="time">
+              14 min
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 9:55 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
+            <h2>151</h2>
+          </li>
+          <li class="direction">
+            <h3>NORTHBOUND</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Devon/Clark</span>
+          </li>
+          <li class="time">
+            15 min
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 9:56 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
+            <h2>6X</h2>
+          </li>
+          <li class="direction">
+            <h3>REROUTE</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px">Jackson Park Express</span>
+          </li>
+          <li class="time">
+            <span style="line-height: 45px">N/A</span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
             <h2>4</h2>
-            </div>
-            <div class="destination">
-            <h3>Cottage Grove</h3>
-            </div>
-            <div class="frequency">
-            <h4>Resumes<br/>12:10am</h4>
-            </div>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
+          </li>
+          <li class="direction">
+            <h3>OUT OF SERVICE</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Cottage Grove</span>
+          </li>
+          <li class="time">
+            15 hrs
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 12:10 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
             <h2>20</h2>
-            </div>
-            <div class="destination">
-            <h3>Madison</h3>
-            </div>
-            <div class="frequency">
-            <h4>Resumes<br/>12:10am</h4>
-            </div>
-          </div>
-          <div class="one-bus">
-            <div class="line-number">
+          </li>
+          <li class="direction">
+            <h3>OUT OF SERVICE</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Madison</span>
+          </li>
+          <li class="time">
+            10 hrs
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 12:10 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
+        <ul class="border-bottom">
+          <li class="number">
             <h2>157</h2>
-            </div>
-            <div class="destination">
-            <h3>Streeterville/Taylor</h3>
-            </div>
-            <div class="frequency">
-            <h4>Resumes<br/>6:00am</h4>
-            </div>
-          </div>
-        </div>
+          </li>
+          <li class="direction">
+            <h3>OUT OF SERVICE</h3><br/>
+            <span style="color: #FFC861">To:</span>
+            <span style="line-height: 20px"> Streeterville/Taylor</span>
+          </li>
+          <li class="time">
+            16 hrs
+            <div class="clock">
+              <i class="far fa-clock"></i>
+            </div><br/>
+            <span style="line-height: 45px">
+            <span> 6:10 AM</span>
+          </span>
+          </li>
+        </ul>
+
+
       </section>
     </section>
   </body>

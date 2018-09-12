@@ -5,8 +5,8 @@
 body {
   font-family: sans-serif;
   font-size: 17px;
-  color: black;
-  background-color: grey;
+  color: white;
+  font-weight: lighter;
 }
 
 .container {
@@ -14,77 +14,89 @@ body {
   width: 420px;
 }
 
+.status-bar {
+  top:0;
+  position: absolute;
+}
+
 nav {
   margin: 0 auto;
-  background-color: #252af7;
-  height: 100px;
+  background-color: #D2D3FE;
+  height: 120px;
 }
 
 .arrow-left {
-width: 10%;
 padding-left: 30px;
-  }
-
-.current-stop {
-  padding-left: 50px;
-}
-
-.arrow-left, .current-stop {
-  display: inline-block;
-  padding-top: 30px;
-}
-
-.bus-list {
-  background-color: white;
-  width: 420px;
-}
-
-.direction-name {
-  padding: 30px 30px 30px 30px;
-  background-color: #F1F1F1;
-  line-height: 1px;
-}
-
-.line-number {
-  width: 10%;
-  padding: 30px;
-}
-
-.destination {
-  padding: 30px;
-}
-
-.frequency {
-  float: right;
-  padding: 30px 30px 0px 0px;
-}
-
-
-.line-number,.destination,.frequency{
-  display: inline-block;
-}
-
-h6 {
-  font-size: 140%;
-  color: white;
 }
 
 h1 {
+    font-size: 140%;
+    padding: 30px 30px 30px 40px;
+  }
+
+.cross {
+  padding: 35px 30px 30px 0px;
+
+  float: right;
+}
+
+.arrow-left, h1, .cross {
+display: inline-block;
+color: #3D3D3D;
+margin-top: 20px;
+}
+
+.bus-list {
+  background-color: #3D3D3D;
+  width: 420px;
+}
+
+.border-bottom {
+ border-bottom: 0.7px solid white;
+ clear: both;
+}
+
+.number {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: #3D3D3D;
+  float: left;
   font-weight: bold;
-  font-size: 95%;
+  padding: 0 auto;
+  padding-top: 18px;
+  margin: 30px;
+}
+
+.direction {
+  float: left;
+  padding: 30px 0px 30px 0px;
+  font-size: 80%;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 95%;
+  text-align: center;
+
 }
 
-h3 {
-  font-size: 95%;
+h2,h3 {
+font-size: 130%;
 }
 
-h4 {
-  font-size: 70%;
-  line-height: 14px;
-  color: #252af7;
+
+.time {
+  float: right;
+  padding: 30px;
+  font-size: 75%;
+  line-height: 20px;
+  text-align: right;
+}
+
+.clock {
+  color: #FFC861;
+}
+
+.clock,.time {
+  display: inline-block;
 }
