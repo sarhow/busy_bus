@@ -22,7 +22,7 @@ body {
 nav {
   margin: 0 auto;
   background-color: #D2D3FE;
-  height: 120px;
+  height: 100px;
 }
 
 .arrow-left {
@@ -49,10 +49,12 @@ margin-top: 20px;
 .bus-list {
   background-color: #3D3D3D;
   width: 420px;
+  height: 567px;
+  overflow: scroll;
 }
 
 .border-bottom {
- border-bottom: 0.7px solid white;
+ border-bottom: 1px solid white;
  clear: both;
 }
 
