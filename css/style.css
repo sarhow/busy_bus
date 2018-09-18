@@ -22,7 +22,6 @@ body {
 nav {
   margin: 0 auto;
   background-color: #D2D3FE;
-  height: 100px;
 }
 
 .arrow-left {
@@ -56,6 +55,7 @@ margin-top: 20px;
 .border-bottom {
  border-bottom: 1px solid white;
  clear: both;
+ overflow: hidden;
 }
 
 .number {
